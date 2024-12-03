@@ -116,3 +116,31 @@ console.log(bensPhrases["smallTalk"])
 console.log(desiredPleasantry + " " + bensPhrases["greeting"])
 
 console.log(desiredPleasantry + " " + bensPhrases["farewell"])
+
+/*
+## Task 4 - Reassigning Properties
+
+👉 Copy the object below, and fill in the blank name values to represent yourself, but do not change the `isBootcamper` key; it must remain as false (just for a little bit...).
+
+```js
+let me = {
+  firstName: "firstName",
+  lastName: "lastName",
+  isBootcamper: false,
+};
+```
+
+👉 Below your object, reassign the property of `isBootcamper` using the assignment operator. Make it `true`!
+*/
+
+let me = {
+    firstName: "Samantha",
+    lastName: "Daly",
+    isBootcamper: false,
+  };
+
+  console.log(me)
+
+  me.isBootcamper = true;
+  
+  console.log(me)
