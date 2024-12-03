@@ -1,4 +1,5 @@
-/* Task 1 - Declaring Objects
+/*
+## Task 1 - Declaring Objects
 
 In your `main.js`, convert the following sentences into JavaScript objects.
 
@@ -46,3 +47,35 @@ const myFavouriteFilm = {
     releasedDate: 2008,
     leadActor: "Christian Bale",
 };
+
+/*
+## Task 2 - Reading values
+
+👉 Copy this object into your JavaScript file.
+
+```js
+let person = {
+  name: "Ben",
+  likesChocolate: true,
+};
+```
+
+👉 Below that, use dot notation to console.log the value of the `likesChocolate` property.
+
+👉 Then write an if statement that will console.log `"Ben loves chocolate"` if likesChocolate has a value of true else console.log `"Ben hates chocolate"`. The condition for the if, and the name Ben should both be read from the object using dot notation.
+
+👉 Change the object's values and re-run your code. The name and the boolean should affect how your program runs.
+*/
+
+let person = {
+    name: "Ben",
+    likesChocolate: true,
+  };
+
+console.log(person.likesChocolate)
+
+if (person.likesChocolate = true) {
+  console.log("Ben loves chocolate");
+} else {
+  console.log("Ben hates chocolate");
+}
