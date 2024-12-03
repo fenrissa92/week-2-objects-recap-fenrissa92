@@ -79,3 +79,40 @@ if (person.likesChocolate = true) {
 } else {
   console.log("Ben hates chocolate");
 }
+
+/*
+## Task 3 - Bracket Notation
+
+👉 Copy this object into your JavaScript file:
+
+```js
+let desiredPleasantry = "greeting";
+
+let bensPhrases = {
+  greeting: "Well hello there!",
+  farewell: "See you in another life, brother",
+  smallTalk: "Warm today, isn't it...",
+};
+```
+
+👉 Use bracket notation and the `smallTalk property` to console.log Ben's smalltalk phrase.
+
+👉 Use bracket notation and the `desiredPleasantry` variable to console.log Ben's greeting phrase.
+
+👉 Change what is console logged by changing the value of `desiredPleasantry`.
+
+*/
+
+let desiredPleasantry = "greeting";
+
+let bensPhrases = {
+  greeting: "Well hello there!",
+  farewell: "See you in another life, brother",
+  smallTalk: "Warm today, isn't it...",
+};
+
+console.log(bensPhrases["smallTalk"])
+
+console.log(desiredPleasantry + " " + bensPhrases["greeting"])
+
+console.log(desiredPleasantry + " " + bensPhrases["farewell"])
