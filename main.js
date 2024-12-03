@@ -144,3 +144,52 @@ let me = {
   me.isBootcamper = true;
   
   console.log(me)
+
+/*
+## Task 5 - Nested Objects
+
+👉 Copy this object into your JavaScript file.
+
+```js
+let communication = {
+  success: true,
+  payload: {
+    message: {
+      text: "Please send biscuits!",
+      priority: "URGENT",
+    },
+  },
+};
+```
+
+👉 Using dot notation, read the text from the communication object and store it in a variable.
+
+👉 If the priority is urgent, then console.log the variable, else do nothing.
+*/
+
+let communication = {
+    success: true,
+    payload: {
+      message: {
+        text: "Please send biscuits!",
+        priority: "URGENT",
+      },
+    },
+  };
+
+  console.log(communication.payload.message.text)
+
+  if (communication.payload.message.priority = "URGENT") {
+console.log(communication.payload.message.text)
+  }
+
+/*
+## Task 6 - Get Experimental
+
+👉 Explore objects more. For example, you could...
+
+- Create multi-layered nested objects, and access properties at different layers.
+- Create functions that take in information and use that information to create or change objects. For example, you could make a function that took in someone's name and age and return an object for that person with those details as properties.
+- Look online in documentation (for example, [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects) or [W3Schools](https://www.w3schools.com/js/js_objects.asp)) about objects in JavaScript. Can you find anything new or surprising?
+
+*/
